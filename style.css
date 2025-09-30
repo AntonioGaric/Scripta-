@@ -1,0 +1,123 @@
+body { 
+  font-family: Arial, sans-serif; /* Postavlja font za cijelo tijelo stranice */
+  margin: 0; /* Uklanja defaultni margin */
+  line-height: 1.6; 
+  background: linear-gradient(to bottom, #a7c7e7, #f4f4f9); 
+}
+
+header { 
+  text-align: center; 
+  padding: 20px; /* Razmak unutar headera */
+  background: #4f46e5; 
+  color: #fff; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Lagana sjena ispod headera */
+}
+
+.lesson {
+  background: #fff; 
+  max-width: 800px; 
+  margin: 30px auto; 
+  padding: 25px; 
+  border-radius: 12px; 
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12); 
+}
+
+.lesson h2 { 
+  margin-top: 0; /* Uklanja razmak iznad naslova */
+  background: #ec4899; 
+  color: #fff; 
+  padding: 12px; 
+  border-radius: 6px; 
+  font-size: 20px; /
+}
+
+.note { 
+  background: #fff3cd; 
+  padding: 10px; 
+  border-left: 4px solid #ffc107; /* Žuta vertikalna linija sa strane */
+  margin: 15px 0; 
+  border-radius: 4px; /
+}
+
+.tags { 
+  margin-top: 12px; /* Razmak iznad tagova */
+}
+
+.tags span {
+  background: #e5e7eb; 
+  border-radius: 6px; 
+  padding: 5px 10px; 
+  margin-right: 5px; 
+  font-size: 12px; 
+  display: inline-block; /* Omogućuje padding i margin */
+}
+
+.opacity-demo {
+  display: flex; /* Postavlja boxove u red */
+  gap: 20px; /* Razmak između boxova */
+  margin-top: 15px; /* Razmak iznad */
+  justify-content: center; /* Centriranje boxova */
+}
+
+.opacity-box {
+  width: 120px; 
+  height: 120px; 
+  display: flex; /* Flex za centriranje sadržaja */
+  align-items: center; /* Vertikalno centriranje */
+  justify-content: center; /* Horizontalno centriranje */
+  font-weight: bold; 
+  border-radius: 6px; 
+  color: white; 
+}
+
+.opacity-red { 
+  background: rgb(0,0,255,0.5); 
+  opacity: 4.0; 
+}
+
+.opacity-blue { 
+  background: rgba(0,0,255,0.5); 
+  color: white; 
+  opacity: 0.4;
+}
+
+.box-background-container {
+  display: flex; 
+  gap: 15px; 
+  flex-wrap: wrap; /* Ne treba mi */
+  margin-top: 15px; 
+}
+
+.box-background-demo {
+  width: 120px; 
+  height: 100px; 
+  color: white; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 6px; 
+  font-weight: bold; 
+  text-align: center; 
+}
+
+.box-background-demo {
+  background: #60a5fa; 
+}
+
+.gradient-box {
+  background: linear-gradient(to right, #3b82f6, #60a5fa); /* Horizontalni gradijent */
+}
+
+.green-box {
+  background: #22c55e; 
+}
+
+.pattern-box {
+  background: repeating-linear-gradient(
+    45deg, 
+    #f87171, 
+    #f87171 10px, 
+    #fcd34d 10px, 
+    #fcd34d 20px 
+  );
+}
